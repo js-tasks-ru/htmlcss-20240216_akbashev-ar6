@@ -1,5 +1,6 @@
 .main {
-  width: 100%;
+  width: 98%;
   height: 600px;
+  padding: 20px;
   background-color: var(--grey-1);
 }
