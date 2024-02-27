@@ -1,9 +1,7 @@
 .footer {
-  display: flex;
-  flex-direction: column;
+  background-color: var(--white);
+  width: var(--page-width);
   height: 200px;
-  align-items: center;
-  justify-content: center;
 }
 
 .footer__title {

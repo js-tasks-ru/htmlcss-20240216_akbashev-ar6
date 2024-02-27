@@ -1,15 +1,15 @@
 .header {
-  background-color: #fff;
+  background-color: var(--white);
+  height: 100px;
+  width: var(--page-width);
 }
 
 .header__title {
-  width: 670px;
-  height: 100px;
-  margin-left: 50px;
-  color: --black;
+  /* top: 96px;
+  left: 160px; */
+  color: var(--black);
   font-family: Inter;
   font-weight: 500;
-  font-size: 20px;
   line-height: 64px;
   font-weight: 100;
   text-align: left;

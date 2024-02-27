@@ -1,6 +1,5 @@
-.main {
-  width: 98%;
+.preview {
   height: 600px;
-  padding: 20px;
+  width: var(--page-width);
   background-color: var(--grey-1);
 }

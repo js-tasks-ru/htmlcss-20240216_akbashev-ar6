@@ -21,6 +21,8 @@
     --primary-hover: var(--blue-darker);
     --secondary: var(--purple);
     --secondary-hover: var(--purple-darker);
+
+    --page-width: 100%;
 }
 
 * {
