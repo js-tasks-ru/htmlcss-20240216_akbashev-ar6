@@ -1,0 +1,44 @@
+.histogram {
+  display: flex;
+  flex-direction: column;
+  width: 354px;
+  height: 185px;
+  border: 1px solid var(--grey-3);
+  border-radius: 6px;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.header__title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__filter {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.header__orders-count {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.histogram__body {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
+}
+
+.bar {
+  background-color: var(--blue);
+  width: calc(100% / 30);
+  height: var(--height);
+  margin-right: 1px;
+}
