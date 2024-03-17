@@ -1,7 +1,7 @@
 .calendar {
   border: 1px solid var(--grey-3);
   border-radius: 8px;
-  padding: 28px 36px;
+  padding: 28px 26px 32px;
   width: 100%;
   max-width: 300px;
 }
@@ -42,16 +42,16 @@
   color: #334D6E;
 }
 
-.calendar__item.calendar__item_day {
+.calendar__item_day {
   color: #90A0B7;
 }
 
-.calendar__item.calendar__select_start-end {
+.calendar__select_start-end {
   background: #4263EB;
   color: var(--white);
 }
 
-.calendar__item.calendar__select_range {
+.calendar__select_range {
   color: #334D6E;
   background: #A0B1F5;
   opacity: 20%;
