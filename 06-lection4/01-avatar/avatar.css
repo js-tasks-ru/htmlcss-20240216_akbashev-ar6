@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  gap: 20px;
+  top: 20px;
+  left: 20px;
+  position: relative;
+}
+
+.avatar {
+  width: 102px;
+  height: 102px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.avatar__img {
+  width: 102px;
+  height: 102px;
+  object-fit: cover;
+}
+
+.avatar__bg {
+  width: 102px;
+  height: 102px;
+  background: url(/06-lection4/01-avatar/public/avatar-200.jpg) center no-repeat;
+  background-size: contain;
+}
