@@ -4,7 +4,7 @@
   "description": "Course Materials",
   "scripts": {
     "test": "cross-env NODE_ENV=test mocha --no-warnings --ignore=node_modules/** **/*.test.js",
-    "start": "browser-sync start --server --files '**/*.css, **/*.html' --index 02-dz0/01-semantic-mockup/solution.html"
+    "start": "browser-sync start --server --files '**/*.css, **/*.html' --index 03-lection1/01-button/index.html"
   },
   "husky": {
     "hooks": {
