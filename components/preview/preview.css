@@ -1,0 +1,5 @@
+.preview {
+  height: 600px;
+  width: var(--page-width);
+  background-color: var(--grey-1);
+}

@@ -1,0 +1,15 @@
+.header {
+  background-color: var(--white);
+  width: var(--page-width);
+}
+
+.header__title {
+  /* top: 96px;
+  left: 160px; */
+  color: var(--black);
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 64px;
+  font-weight: 100;
+  text-align: left;
+}
