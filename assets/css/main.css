@@ -1,4 +1,6 @@
+@import './normalize.css';
 @import '../fonts/fonts.css';
+
 
 :root {
     --white: #ffffff;
@@ -27,4 +29,11 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 20px;
 }
